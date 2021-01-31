@@ -1490,12 +1490,16 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: black;
+	background: #161616 url(pattern_40.gif) top left repeat;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
+	font: 20px normal Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
 }
 #about .section-intro {
 	margin-bottom: 3rem;
+	font: 12px normal Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
 }
 
 .intro-info {
@@ -1791,9 +1795,12 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: black;
+	background: #161616 url(pattern_40.gif) top left repeat;
 	padding-top: 12rem;
-	padding-bottom: 12rem;
+	padding-bottom: 15rem;
+	font: 20px normal Verdana, Arial, Helvetica, sans-serif;
+	color:#fff;
+
 }
 #portfolio .folio-item {
 	padding: 0;
@@ -2251,7 +2258,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #151515;
+	background: #161616 url(pattern_40.gif) top left repeat;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2492,6 +2499,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 footer {
+	background: #161616 url(pattern_40.gif) top left repeat;
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
@@ -2598,3 +2606,56 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/* skills */
+
+
+
+#skill { 
+	font: 12px normal Verdana, Arial, Helvetica, sans-serif;
+	list-style:none; 
+	padding-top:30px;
+}
+
+#skill li { 
+	font: 12px normal Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom:70px; 
+	background:#000; 
+	height:5px; 
+	border-radius:3px; 
+	border-left:1px solid #111; 
+	border-top:1px solid #111; 
+	border-right:1px solid #333; 
+	border-bottom:1px solid #333;  
+}
+
+#skill li em { 
+	position:relative; 
+	top:-30px;
+}
+
+.expand { 
+	height:1px; 
+	margin:2px 0; 
+	background:#2187e7; 
+	position:absolute;
+	box-shadow:0px 0px 10px 1px rgba(0,198,255,0.4);
+}
+
+.html5       { width:90%;  -moz-animation:html5 5s ease-out;       -webkit-animation:html5 5s ease-out;       }
+.css3        { width:95%;  -moz-animation:css3 5s ease-out;        -webkit-animation:css3 5s ease-out;        }
+.jquery      { width:80%;  -moz-animation:jquery 5s ease-out;      -webkit-animation:jquery 5s ease-out;      }
+.photoshop   { width:96%;  -moz-animation:photoshop 5s ease-out;   -webkit-animation:photoshop 5s ease-out;   }
+.dreamweaver { width:70%; -moz-animation:dreamweaver 5s ease-out; -webkit-animation:dreamweaver 5s ease-out; }
+
+@-moz-keyframes html5       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes css3        { 0%  { width:0px;} 100%{ width:95%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-moz-keyframes photoshop   { 0%  { width:0px;} 100%{ width:96%;}  }
+@-moz-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:70%;} }
+
+@-webkit-keyframes html5       { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes css3        { 0%  { width:0px;} 100%{ width:95%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:80%;}  }
+@-webkit-keyframes photoshop   { 0%  { width:0px;} 100%{ width:96%;}  }
+@-webkit-keyframes dreamweaver { 0%  { width:0px;} 100%{ width:70%;} }
